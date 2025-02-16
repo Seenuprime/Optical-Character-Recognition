@@ -56,6 +56,6 @@ def make_pred(model, image, w=32, h=32):
 image = cv.imread('detect1.png')
 preds = make_pred(model, image)
 
-print(preds)
+# print(preds)
 
 print("Predicted",''.join(preds))
